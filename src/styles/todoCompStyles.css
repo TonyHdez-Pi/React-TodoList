@@ -1,0 +1,29 @@
+.taskContainer {
+	background-color: gray;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 20px;
+	margin: 5px 0;
+	font-size: 0.7rem;
+	padding: 0 0.8rem;
+	min-width: 30%;
+	max-width: 90%;
+	height: fit-content;
+	overflow: scroll;
+}
+
+.taskContainer > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon {
+	margin-right: 10px;
+}
+
+.icon:hover {
+	cursor: pointer;
+}

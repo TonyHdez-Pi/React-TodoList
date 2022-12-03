@@ -1,0 +1,12 @@
+.addTodoContainer {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #0f90a1;
+	border-radius: 10px;
+}
+
+.addTodoContainer > .icon {
+	margin-left: 10px;
+}
